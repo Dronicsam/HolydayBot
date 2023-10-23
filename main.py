@@ -5,7 +5,7 @@ from aiogram.filters import Command
 from aiogram.types import Message
 from aiogram.types import URLInputFile
 
-from bot_auth import token_id
+from bot_auth import token_id  # you should create bot_auth.py file and enter your api there
 import rand_img
 
 TOKEN = token_id
